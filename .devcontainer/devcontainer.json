@@ -15,7 +15,10 @@
 				"streetsidesoftware.code-spell-checker",
 				"streetsidesoftware.code-spell-checker-russian",
 				"Gruntfuggly.todo-tree",
-				"DavidAnson.vscode-markdownlint"
+				"DavidAnson.vscode-markdownlint",
+				"mhutchie.git-graph",
+				"donjayamanne.githistory",
+				"GitHub.vscode-pull-request-github"
 			]
 		}
 	}
