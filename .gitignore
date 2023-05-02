@@ -1,2 +1,5 @@
 .cache/
 build/
+.vscode/.conan_tools
+out/
+CMakeUserPresets.json

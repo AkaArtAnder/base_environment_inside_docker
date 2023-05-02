@@ -1,4 +1,5 @@
 {
     "editor.formatOnSave": true,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "clangd.path": "/usr/bin/clangd"
 }
