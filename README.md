@@ -4,5 +4,5 @@
 
 ```bash
 conan profile detect --force
-conan install . --output-folder=out/build/testPreset  --build=gtest/cci.20210126 --settings=build_type=Debug
+conan install . --output-folder=build  --build=missing --settings=build_type=Debug
 ```

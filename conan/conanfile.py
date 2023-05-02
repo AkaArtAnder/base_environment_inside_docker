@@ -6,4 +6,4 @@ class GTestConan(ConanFile):
     version = "1.0"
     settings = "os", "arch", "compiler", "build_type"
     generators = "CMakeToolchain", "CMakeDeps"
-    requires = [("gtest/cci.20210126")]
+    requires = [("gtest/cci.20210126"), ("poco/1.12.4")]

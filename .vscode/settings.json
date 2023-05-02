@@ -1,5 +1,9 @@
 {
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "all",
-    "clangd.path": "/usr/bin/clangd"
+    "clangd.path": "/usr/bin/clangd",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
 }

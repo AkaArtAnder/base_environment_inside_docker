@@ -11,7 +11,7 @@ RUN if [ "${REINSTALL_CMAKE_VERSION_FROM_SOURCE}" != "none" ]; then \
     && rm -f /tmp/reinstall-cmake.sh
 #CUSTOM settings
 RUN apt-get update && apt-get install -y python3-pip clangd
-RUN pip3 install conan
+RUN pip3 install conan autopep8
 
 # [Optional] Uncomment this section to install additional vcpkg ports.
 # RUN su vscode -c "${VCPKG_ROOT}/vcpkg install <your-port-name-here>"
